@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+@import "base.css";
+
+/*-------------------------------------------------------------------------
+	Form
+/*-----------------------------------------------------------------------*/
+input,
+textarea,
+select {
+	padding:5px;
+	border:1px solid #aaa;
+	background:#fafafa;
+	font-size:12px;
+	line-height:1.8;
+}
+
+input {
+	resize:none;
+	height:20px;
+}
+
+input[type="text"] {
+	width:200px;
+}
+
+input[type="number"] {
+	text-align:right;
+}
+
+select {
+	width:100px;
+	height:30px;
+}
+
+button {
+	height:32px;
+	padding:0 20px;
+	border:none;
+	border-radius:3px;
+	background:#329fba;
+	color:#fff;
+	font-size:14px;
+	text-align:center;
+	text-indent:.5em;
+	letter-spacing:.5em;
+	cursor:pointer;
+}
+
+button:hover {
+	background-color:#53b7d0;
+}

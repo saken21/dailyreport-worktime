@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+@import "common/layout.css";
+
+/*-------------------------------------------------------------------------
+	Worktime
+/*-----------------------------------------------------------------------*/
+#worktime {
+	padding:50px;
+}
+
+	#worktime  form {
+		margin-bottom:30px;
+	}
+	
+	#worktime form p {
+		margin-bottom:10px;
+	}
+	
+	#worktime form ul {
+		margin-bottom:30px;
+	}
+	
+		#worktime form ul li {
+			float:left;
+			margin-right:10px;
+		}
+		
+	#result {
+	}
+	
+		#result ul li {
+			margin-bottom:10px;
+		}
